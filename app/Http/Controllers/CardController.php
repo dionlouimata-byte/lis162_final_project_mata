@@ -108,7 +108,7 @@ class CardController extends Controller
 
         $card->update([
             'card_name'        => $request->card_name,
-            'card_category_id' => $request->card_category_id,
+            'CATEGORY_category_id' => $request->card_category_id,
             'handtrap'         => $request->handtrap,
         ]);
 
